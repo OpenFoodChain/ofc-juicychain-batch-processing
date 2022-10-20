@@ -1,0 +1,14 @@
+#!/bin/bash
+# cd /opt/komodo/blocknotify-python
+#source .venv/bin/activate
+echo "["
+for i in {0..63}
+do
+	if [ $i -ne 0 ] 
+	then
+		echo ","
+	fi
+php genlistjson.php $(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1) ${i}
+done
+echo "]"
+#deactivate
