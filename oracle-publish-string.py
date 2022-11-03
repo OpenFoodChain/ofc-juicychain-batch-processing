@@ -1,5 +1,5 @@
 
-from openfood_lib_dev import openfood
+from ofc-openfood import openfood
 import json
 import time
 import sys

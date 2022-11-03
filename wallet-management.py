@@ -1,12 +1,12 @@
-from openfood_lib_dev.juicychain_env import KOMODO_NODE
-from openfood_lib_dev.juicychain_env import RPC_USER
-from openfood_lib_dev.juicychain_env import RPC_PASSWORD
-from openfood_lib_dev.juicychain_env import RPC_PORT
-# from openfood_lib_dev.juicychain_env import THIS_NODE_WALLET
-# from openfood_lib_dev.juicychain_env import EXPLORER_URL
+from ofc-openfood.juicychain_env import KOMODO_NODE
+from ofc-openfood.juicychain_env import RPC_USER
+from ofc-openfood.juicychain_env import RPC_PASSWORD
+from ofc-openfood.juicychain_env import RPC_PORT
+# from ofc-openfood.juicychain_env import THIS_NODE_WALLET
+# from ofc-openfood.juicychain_env import EXPLORER_URL
 # load all needed vars at top of file only
 
-from openfood_lib_dev import juicychain
+from ofc-openfood import juicychain
 from dotenv import load_dotenv
 import json
 import time

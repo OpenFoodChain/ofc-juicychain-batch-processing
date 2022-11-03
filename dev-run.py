@@ -1,5 +1,5 @@
-# from openfood_lib_dev import rpclib
-from openfood_lib_dev import openfood
+# from ofc-openfood import rpclib
+from ofc-openfood import openfood
 from slickrpc import Proxy
 import os
 from dotenv import load_dotenv

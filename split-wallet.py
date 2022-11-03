@@ -1,8 +1,8 @@
-from openfood_lib_dev import rpclib
+from ofc-openfood import rpclib
 from slickrpc import Proxy
-from openfood_lib_dev import transaction, bitcoin, util
-from openfood_lib_dev.util import bfh, bh2u
-from openfood_lib_dev.transaction import Transaction
+from ofc-openfood import transaction, bitcoin, util
+from ofc-openfood.util import bfh, bh2u
+from ofc-openfood.transaction import Transaction
 
 import requests
 import subprocess

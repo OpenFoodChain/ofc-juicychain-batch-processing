@@ -1,9 +1,7 @@
 [submodule "BitcoinECDSA.php"]
 	path = BitcoinECDSA.php
 	url = git@github.com:DeckerSU/BitcoinECDSA.php.git
-[submodule "openfood_lib_dev"]
-	path = openfood_lib_dev
-	url = git@github.com:The-New-Fork/openfood.git
+
 [submodule "ofc-openfood"]
 	path = ofc-openfood
 	url = git@github.com:OpenFoodChain/ofc-openfood.git

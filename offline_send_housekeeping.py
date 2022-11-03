@@ -1,14 +1,14 @@
 import json
-from openfood_lib_dev import openfood
-from openfood_lib_dev.openfood_env import KOMODO_NODE
-from openfood_lib_dev.openfood_env import RPC_USER
-from openfood_lib_dev.openfood_env import RPC_PASSWORD
-from openfood_lib_dev.openfood_env import RPC_PORT
-from openfood_lib_dev.openfood_env import EXPLORER_URL
-from openfood_lib_dev.openfood_env import THIS_NODE_ADDRESS
-from openfood_lib_dev.openfood_env import HOUSEKEEPING_ADDRESS
-from openfood_lib_dev.openfood_env import openfood_API_BASE_URL
-from openfood_lib_dev.openfood_env import openfood_API_ORGANIZATION_CERTIFICATE
+from ofc-openfood import openfood
+from ofc-openfood.openfood_env import KOMODO_NODE
+from ofc-openfood.openfood_env import RPC_USER
+from ofc-openfood.openfood_env import RPC_PASSWORD
+from ofc-openfood.openfood_env import RPC_PORT
+from ofc-openfood.openfood_env import EXPLORER_URL
+from ofc-openfood.openfood_env import THIS_NODE_ADDRESS
+from ofc-openfood.openfood_env import HOUSEKEEPING_ADDRESS
+from ofc-openfood.openfood_env import openfood_API_BASE_URL
+from ofc-openfood.openfood_env import openfood_API_ORGANIZATION_CERTIFICATE
 
 # from dotenv import load_dotenv
 # load_dotenv(verbose=True)

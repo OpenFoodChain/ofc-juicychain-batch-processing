@@ -4,17 +4,17 @@ from pathlib import Path  # Python 3.6+ only
 from dotenv import load_dotenv
 env_path = Path('.') / '.env.test'
 load_dotenv(dotenv_path=env_path)
-from openfood_lib_dev import juicychain
-from openfood_lib_dev.juicychain_env import KOMODO_NODE
-from openfood_lib_dev.juicychain_env import RPC_USER
-from openfood_lib_dev.juicychain_env import RPC_PASSWORD
-from openfood_lib_dev.juicychain_env import RPC_PORT
-from openfood_lib_dev.juicychain_env import TEST_THIS_NODE_WALLET
-from openfood_lib_dev.juicychain_env import TEST_GEN_WALLET_PASSPHRASE
-from openfood_lib_dev.juicychain_env import TEST_GEN_WALLET_ADDRESS
-from openfood_lib_dev.juicychain_env import TEST_GEN_WALLET_WIF
-from openfood_lib_dev.juicychain_env import TEST_GEN_WALLET_PUBKEY
-# from openfood_lib_dev.juicychain_env import EXPLORER_URL
+from ofc-openfood import juicychain
+from ofc-openfood.juicychain_env import KOMODO_NODE
+from ofc-openfood.juicychain_env import RPC_USER
+from ofc-openfood.juicychain_env import RPC_PASSWORD
+from ofc-openfood.juicychain_env import RPC_PORT
+from ofc-openfood.juicychain_env import TEST_THIS_NODE_WALLET
+from ofc-openfood.juicychain_env import TEST_GEN_WALLET_PASSPHRASE
+from ofc-openfood.juicychain_env import TEST_GEN_WALLET_ADDRESS
+from ofc-openfood.juicychain_env import TEST_GEN_WALLET_WIF
+from ofc-openfood.juicychain_env import TEST_GEN_WALLET_PUBKEY
+# from ofc-openfood.juicychain_env import EXPLORER_URL
 
 
 class TestBlocknotify(unittest.TestCase):

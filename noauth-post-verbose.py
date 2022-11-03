@@ -1,11 +1,11 @@
-from openfood_lib_dev.openfood_env import IMPORT_API_BASE_URL
-from openfood_lib_dev.openfood_env import openfood_API_BASE_URL
-from openfood_lib_dev.openfood_env import openfood_API_ORGANIZATION_CERTIFICATE_NORADDRESS
-from openfood_lib_dev.openfood_env import openfood_API_ORGANIZATION_CERTIFICATE
-from openfood_lib_dev.openfood_env import openfood_API_ORGANIZATION_CERTIFICATE_RULE
-from openfood_lib_dev.openfood_env import openfood_API_ORGANIZATION_BATCH
-from openfood_lib_dev.openfood_env import openfood_API_ORGANIZATION
-from openfood_lib_dev import openfood
+from ofc-openfood.openfood_env import IMPORT_API_BASE_URL
+from ofc-openfood.openfood_env import openfood_API_BASE_URL
+from ofc-openfood.openfood_env import openfood_API_ORGANIZATION_CERTIFICATE_NORADDRESS
+from ofc-openfood.openfood_env import openfood_API_ORGANIZATION_CERTIFICATE
+from ofc-openfood.openfood_env import openfood_API_ORGANIZATION_CERTIFICATE_RULE
+from ofc-openfood.openfood_env import openfood_API_ORGANIZATION_BATCH
+from ofc-openfood.openfood_env import openfood_API_ORGANIZATION
+from ofc-openfood import openfood
 import string
 import random
 import time

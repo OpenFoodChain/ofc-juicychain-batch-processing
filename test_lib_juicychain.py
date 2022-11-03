@@ -1,20 +1,20 @@
-from  openfood_lib_dev.openfood_env import EXPLORER_URL
-from  openfood_lib_dev.openfood_env import THIS_NODE_WALLET
-from  openfood_lib_dev.openfood_env import THIS_NODE_WIF
-from  openfood_lib_dev.openfood_env import THIS_NODE_RADDRESS
-from  openfood_lib_dev.openfood_env import KV1_ORG_POOL_WALLETS
-from  openfood_lib_dev.openfood_env import IMPORT_API_BASE_URL
-from  openfood_lib_dev.openfood_env import DEV_IMPORT_API_RAW_REFRESCO_TSTX_PATH
-from  openfood_lib_dev.openfood_env import DEV_IMPORT_API_RAW_REFRESCO_PATH
+from  ofc-openfood.openfood_env import EXPLORER_URL
+from  ofc-openfood.openfood_env import THIS_NODE_WALLET
+from  ofc-openfood.openfood_env import THIS_NODE_WIF
+from  ofc-openfood.openfood_env import THIS_NODE_RADDRESS
+from  ofc-openfood.openfood_env import KV1_ORG_POOL_WALLETS
+from  ofc-openfood.openfood_env import IMPORT_API_BASE_URL
+from  ofc-openfood.openfood_env import DEV_IMPORT_API_RAW_REFRESCO_TSTX_PATH
+from  ofc-openfood.openfood_env import DEV_IMPORT_API_RAW_REFRESCO_PATH
 
-#from  openfood_lib_dev.openfood_env import TEST_GEN_WALLET_PASSPHRASE
-#from  openfood_lib_dev.openfood_env import TEST_GEN_WALLET_ADDRESS
-#from  openfood_lib_dev.openfood_env import TEST_GEN_WALLET_WIF
-#from  openfood_lib_dev.openfood_env import TEST_GEN_WALLET_PUBKEY
-from  openfood_lib_dev.openfood_env import openfood_API_BASE_URL
-from  openfood_lib_dev.openfood_env import openfood_API_ORGANIZATION_CERTIFICATE
-from  openfood_lib_dev.openfood_env import openfood_API_ORGANIZATION_BATCH
-from  openfood_lib_dev import openfood
+#from  ofc-openfood.openfood_env import TEST_GEN_WALLET_PASSPHRASE
+#from  ofc-openfood.openfood_env import TEST_GEN_WALLET_ADDRESS
+#from  ofc-openfood.openfood_env import TEST_GEN_WALLET_WIF
+#from  ofc-openfood.openfood_env import TEST_GEN_WALLET_PUBKEY
+from  ofc-openfood.openfood_env import openfood_API_BASE_URL
+from  ofc-openfood.openfood_env import openfood_API_ORGANIZATION_CERTIFICATE
+from  ofc-openfood.openfood_env import openfood_API_ORGANIZATION_BATCH
+from  ofc-openfood import openfood
 from dotenv import load_dotenv
 import json
 import pytest

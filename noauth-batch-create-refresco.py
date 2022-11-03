@@ -1,4 +1,4 @@
-from openfood_lib_dev.openfood_env import IMPORT_API_BASE_URL
+from ofc-openfood.openfood_env import IMPORT_API_BASE_URL
 import string
 import random
 import time

@@ -1,5 +1,5 @@
-from openfood_lib_dev import openfood_env
-from openfood_lib_dev import openfood
+from ofc-openfood import openfood_env
+from ofc-openfood import openfood
 import requests
 from dotenv import load_dotenv
 import json

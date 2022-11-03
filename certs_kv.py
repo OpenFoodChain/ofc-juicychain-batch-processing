@@ -1,5 +1,5 @@
 import json
-from openfood_lib_dev import openfood
+from ofc-openfood import openfood
 
 
 from dotenv import load_dotenv

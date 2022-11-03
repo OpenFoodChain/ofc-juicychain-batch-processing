@@ -9,7 +9,7 @@ RUN apt-get update \
   && apt-get install -y php php-gmp
 
 RUN mkdir /code
-RUN mkdir /code/openfood_lib_dev
+RUN mkdir /code/ofc-openfood
 RUN git clone https://github.com/DeckerSU/BitcoinECDSA.php.git /code/BitcoinECDSA.php && \
   cd code/BitcoinECDSA.php && \
   git checkout b4b0ca4

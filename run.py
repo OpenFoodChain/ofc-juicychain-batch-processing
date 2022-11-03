@@ -12,18 +12,18 @@ if sentry_dsn:
 import json
 # import pytest
 # import os
-from openfood_lib_dev import openfood
-from openfood_lib_dev.openfood_env import EXPLORER_URL, EXPLORER_LIST
-from openfood_lib_dev.openfood_env import IMPORT_API_BASE_URL
-from openfood_lib_dev.openfood_env import DEV_IMPORT_API_RAW_REFRESCO_INTEGRITY_PATH
-from openfood_lib_dev.openfood_env import DEV_IMPORT_API_RAW_REFRESCO_TSTX_PATH
-from openfood_lib_dev.openfood_env import openfood_API_BASE_URL
-from openfood_lib_dev.openfood_env import openfood_API_ORGANIZATION_CERTIFICATE
-from openfood_lib_dev.openfood_env import openfood_API_ORGANIZATION_LOCATION
-from openfood_lib_dev.openfood_env import openfood_API_ORGANIZATION_BATCH
-from openfood_lib_dev.openfood_env import HK_LIB_VERSION
-from openfood_lib_dev.openfood_env import HK_SKIP_BATCH_PROCESSING
-from openfood_lib_dev.openfood_env import HK_BATCH_PROCESSING
+from ofc-openfood import openfood
+from ofc-openfood.openfood_env import EXPLORER_URL, EXPLORER_LIST
+from ofc-openfood.openfood_env import IMPORT_API_BASE_URL
+from ofc-openfood.openfood_env import DEV_IMPORT_API_RAW_REFRESCO_INTEGRITY_PATH
+from ofc-openfood.openfood_env import DEV_IMPORT_API_RAW_REFRESCO_TSTX_PATH
+from ofc-openfood.openfood_env import openfood_API_BASE_URL
+from ofc-openfood.openfood_env import openfood_API_ORGANIZATION_CERTIFICATE
+from ofc-openfood.openfood_env import openfood_API_ORGANIZATION_LOCATION
+from ofc-openfood.openfood_env import openfood_API_ORGANIZATION_BATCH
+from ofc-openfood.openfood_env import HK_LIB_VERSION
+from ofc-openfood.openfood_env import HK_SKIP_BATCH_PROCESSING
+from ofc-openfood.openfood_env import HK_BATCH_PROCESSING
 
 from dotenv import load_dotenv
 load_dotenv(verbose=True)

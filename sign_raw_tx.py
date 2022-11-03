@@ -1,6 +1,6 @@
-from openfood_lib_dev import transaction, bitcoin, util
-from openfood_lib_dev.util import bfh, bh2u
-from openfood_lib_dev.transaction import Transaction
+from ofc-openfood import transaction, bitcoin, util
+from ofc-openfood.util import bfh, bh2u
+from ofc-openfood.transaction import Transaction
 import sys
 
 kmd_unsigned_tx_serialized = sys.argv[1] #'0400008085202f890180b25dac8577eca59c862a7f6f24568f868e68b57826fc8f82096cf1b3d095ad0300000000ffffffff0240420f00000000001976a914b0fda403362089103366ae9149c9971fe1d9f01388ac10d4e594000000001976a914a65344e2aebbf9bd515dab38cf7b854ac0a487d188ac000000007cc500000000000000000000000000'

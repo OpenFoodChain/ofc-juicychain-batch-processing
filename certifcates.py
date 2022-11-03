@@ -1,4 +1,4 @@
-from openfood_lib_dev import rpclib
+from ofc-openfood import rpclib
 from slickrpc import Proxy
 import requests
 import subprocess
