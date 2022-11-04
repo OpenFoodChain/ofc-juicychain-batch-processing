@@ -56,6 +56,7 @@ jobs:
       DISCORD_WEBHOOK_URL: ""
       GTID: ""
       EXPLORER_LIST: ""
+      SENTRY_SDK_DSN: ""
       
     runs-on: ubuntu-latest
     strategy:
