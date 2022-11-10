@@ -175,6 +175,8 @@ def properties_test_cert_with_addie(tests):
 
 
 # TEST FUNCTIONS
+#requires import-api running
+@pytest.mark.skip
 def test_postWrapperr():
     url = IMPORT_API_BASE_URL + DEV_IMPORT_API_RAW_REFRESCO_PATH
     data = create_random_batch()
@@ -282,6 +284,8 @@ def test_putWrapperr():
     test = openfood.putWrapper(url, data)
     assert is_json(test) is True
 
+#requires import-api running
+@pytest.mark.skip
 def test_getWrapper():
     url = IMPORT_API_BASE_URL + DEV_IMPORT_API_RAW_REFRESCO_PATH
 
@@ -300,6 +304,8 @@ def test_locations_no_addy():
     test = openfood.get_locations_no_timestamp()
     properties_test_loc(test)
 
+#requires import-api running
+@pytest.mark.skip
 def test_batchess_no_addy():
     test = openfood.get_batches_no_timestamp()
     if test == []:
@@ -307,7 +313,8 @@ def test_batchess_no_addy():
         assert False == True
     properties_test(test)
 
-
+#requires import-api running
+@pytest.mark.skip
 def test_get_batches():
     test = openfood.get_batches()
 
@@ -852,7 +859,8 @@ def test_get_wallet_by_name():
     test_wallet = openfood.getOfflineWalletByName("Anything")
     assert test_wallet['address'][0] == 'R'
 
-
+#requires import-api running
+@pytest.mark.skip
 def test_get_batches_no_timestamp():
     test = openfood.get_batches_no_timestamp()
     properties_test(test)
@@ -1346,6 +1354,8 @@ def test_utxo_send2():
 def test_log2discord():
     openfood.log2discord("**Pong!**")
 
+#requires import-api running
+@pytest.mark.skip
 def test_save_offline_wallet_sent():
     import_url = IMPORT_API_BASE_URL + 'batch/import/'
     get_batch = openfood.getWrapper(import_url)
@@ -1364,6 +1374,8 @@ def test_save_offline_wallet_sent():
     })
     assert test["id"]
 
+#requires import-api running
+@pytest.mark.skip
 def test_restart_offline_wallet_sent():
     import_url = IMPORT_API_BASE_URL + 'batch/import/'
     get_batch = openfood.getWrapper(import_url)
