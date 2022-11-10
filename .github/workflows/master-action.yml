@@ -55,7 +55,7 @@ jobs:
       CUSTOMER_RADDRESS: "FOUNDATION_NODE_RADDRESS"
       DISCORD_WEBHOOK_URL: "https://discord.com/api/webhooks/"
       GTID: "1234"
-      EXPLORER_LIST: {"ofcmvp.cakeshop": {"host": "ofcmvp.explorer.cakeshop.dev","port": "443"}}
+      EXPLORER_LIST: '{"ofcmvp.cakeshop": {"host": "ofcmvp.explorer.cakeshop.dev","port": "443"}}'
       SENTRY_SDK_DSN: ""
 
     runs-on: ubuntu-latest
