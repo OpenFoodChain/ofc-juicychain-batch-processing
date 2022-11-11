@@ -287,8 +287,8 @@ import os
 import json
 #import env
 #from lib 
-from ofc-openfood import openfood
-from ofc-openfood import openfood_env
+from openfood import openfood
+from openfood import openfood_env
 #import run
 import sentry_sdk
 #from run import JC_ORG_ID #batch_wallets_integrity
